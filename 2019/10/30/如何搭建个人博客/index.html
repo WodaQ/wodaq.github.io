@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
@@ -42,22 +42,22 @@
     path: '',
     motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
     translation: {
-      copy_button: 'Copy',
-      copy_success: 'Copied',
-      copy_failure: 'Copy failed'
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
     },
     sidebarPadding: 40
   };
 </script>
 
-  <meta name="description" content="最近寻思着总要搞点事情，恰巧百度云最近搞促销，就整了个服务器来耍耍。那有了自己的服务器自然就是想像各位大佬一样整一个属于自己的个人博客了呗。那废话不多说直接开始吧。 首先是挑选自己喜欢的博客框架，这个网上有很多。我自己选的是hexo，可以自动生成一个静态博客。页面非常简洁大方，重要的还是有中文文档和很多教程，这就非常棒了是不是。 由于hexo是需要node支持的，所以先自己装好node环境吧，然后">
+  <meta name="description" content="最近寻思着总要搞点事情，恰巧百度云最近搞促销，就整了个服务器来耍耍。那就整一个个人博客了呗。在搭建的过程钟遇到了许多问题，在此记录一下。  　　首先是挑选自己喜欢的博客框架，在网上看了很多。最后选的是hexo，可以自动生成一个静态博客。页面非常简洁大方，重要的还是有中文文档和很多教程，这就非常棒了是不是。 　　由于hexo是需要node支持的，所以先自己装好node环境吧，然后顺便再装一下git">
 <meta property="og:type" content="article">
 <meta property="og:title" content="如何搭建个人博客">
 <meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;10&#x2F;30&#x2F;%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2&#x2F;index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="最近寻思着总要搞点事情，恰巧百度云最近搞促销，就整了个服务器来耍耍。那有了自己的服务器自然就是想像各位大佬一样整一个属于自己的个人博客了呗。那废话不多说直接开始吧。 首先是挑选自己喜欢的博客框架，这个网上有很多。我自己选的是hexo，可以自动生成一个静态博客。页面非常简洁大方，重要的还是有中文文档和很多教程，这就非常棒了是不是。 由于hexo是需要node支持的，所以先自己装好node环境吧，然后">
-<meta property="og:locale" content="en">
-<meta property="og:updated_time" content="2019-10-30T08:24:12.898Z">
+<meta property="og:description" content="最近寻思着总要搞点事情，恰巧百度云最近搞促销，就整了个服务器来耍耍。那就整一个个人博客了呗。在搭建的过程钟遇到了许多问题，在此记录一下。  　　首先是挑选自己喜欢的博客框架，在网上看了很多。最后选的是hexo，可以自动生成一个静态博客。页面非常简洁大方，重要的还是有中文文档和很多教程，这就非常棒了是不是。 　　由于hexo是需要node支持的，所以先自己装好node环境吧，然后顺便再装一下git">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-10-31T02:28:52.587Z">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://yoursite.com/2019/10/30/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
@@ -125,7 +125,7 @@
   </div>
 
   <div class="site-nav-toggle">
-    <div class="toggle" aria-label="Toggle navigation bar">
+    <div class="toggle" aria-label="切换导航栏">
       <span class="toggle-line toggle-line-first"></span>
       <span class="toggle-line toggle-line-middle"></span>
       <span class="toggle-line toggle-line-last"></span>
@@ -139,12 +139,12 @@
   <ul id="menu" class="menu">
         <li class="menu-item menu-item-home">
 
-    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>Home</a>
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
 
   </li>
         <li class="menu-item menu-item-archives">
 
-    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
 
   </li>
   </ul>
@@ -172,7 +172,7 @@
       
   
   
-  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="en">
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/10/30/%E5%A6%82%E4%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -194,11 +194,17 @@
               <span class="post-meta-item-icon">
                 <i class="fa fa-calendar-o"></i>
               </span>
-              <span class="post-meta-item-text">Posted on</span>
-              
+              <span class="post-meta-item-text">发表于</span>
 
-              <time title="Created: 2019-10-30 15:38:28 / Modified: 16:24:12" itemprop="dateCreated datePublished" datetime="2019-10-30T15:38:28+08:00">2019-10-30</time>
+              <time title="创建时间：2019-10-30 15:38:28" itemprop="dateCreated datePublished" datetime="2019-10-30T15:38:28+08:00">2019-10-30</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2019-10-31 10:28:52" itemprop="dateModified" datetime="2019-10-31T10:28:52+08:00">2019-10-31</time>
+              </span>
 
           
 
@@ -211,53 +217,57 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>最近寻思着总要搞点事情，恰巧百度云最近搞促销，就整了个服务器来耍耍。那有了自己的服务器自然就是想像各位大佬一样整一个属于自己的个人博客了呗。那废话不多说直接开始吧。</p>
-<p>首先是挑选自己喜欢的博客框架，这个网上有很多。我自己选的是hexo，可以自动生成一个静态博客。页面非常简洁大方，重要的还是有中文文档和很多教程，这就非常棒了是不是。</p>
-<p>由于hexo是需要node支持的，所以先自己装好node环境吧，然后顺便再装一下git</p>
-<p>然后安装hexo</p>
+        <blockquote>
+<p>最近寻思着总要搞点事情，恰巧百度云最近搞促销，就整了个服务器来耍耍。那就整一个个人博客了呗。在搭建的过程钟遇到了许多问题，在此记录一下。</p>
+</blockquote>
+<p>　　首先是挑选自己喜欢的博客框架，在网上看了很多。最后选的是hexo，可以自动生成一个静态博客。页面非常简洁大方，重要的还是有中文文档和很多教程，这就非常棒了是不是。</p>
+<p>　　由于hexo是需要node支持的，所以先自己装好node环境吧，然后顺便再装一下git，然后全局安装hexo</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo</span><br></pre></td></tr></table></figure>
-
-<p>然后cd到你自己选定的目录,名字就随便取了</p>
+<p>　　然后cd到你自己选定的目录,我新建了个blog的空文件夹</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure>
 
-<p>再安装各种依赖</p>
+<p>再安装所有的依赖</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install</span><br></pre></td></tr></table></figure>
-<p>再执行s命令就可直接在本地启动hexo服务器了</p>
+<p>现在直接执行s命令就可直接在本地启动hexo服务器了</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s</span><br></pre></td></tr></table></figure>
-
-<p>此时，浏览器中打开网址<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
-<p>默认主题是landscape</p>
-<p>域名什么的备案很麻烦的，所以直接选择挂到github上</p>
-<p>ok,走到这一步我们已经有了自己的页面了，去github上新建一个repository</p>
-<p>名字一定要和你github的用户名一样，而且重点是如果你名字里有大写的，那么项目名是要全部改成小写的，比如我：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WodaQ:wodaq.github.io</span><br></pre></td></tr></table></figure>
-<p>这样才是对的，这个是之前没注意到的小坑。</p>
-<p>创建好了之后，打开你的博客文件夹里的_config.yml<br>拉到最下面改成这个样子：</p>
+<p>浏览器中打开网址<a href="http://localhost:4000" target="_blank" rel="noopener">http://localhost:4000</a></p>
+<p>ok，看起来没问题，然后这时候去github上新建一个repository</p>
+<h4 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>名字一定要和你github的用户名一样，而且重点是如果你名字里有大写的，那么项目名是要全部改成小写的，比如我：  <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WodaQ:wodaq.github.io</span><br></pre></td></tr></table></figure>
+  这样才是对的，这个是之前没注意到的小坑。</li>
+</ul>
+<p>创建好了之后，打开blog文件夹里的_config.yml<br>拉到最下面改成这个样子：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: git@github.com:WodaQ/wodaq.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
-<p>repository这个我推荐填ssh方式的连接，如果填https的连接也可以的，但是这样以后每次部署代码的时候就要手动输入github的用户名和密码，非常之麻烦，ssh就可以通过添加key解决。这个也是我遇到的一个小坑。<br>master 代表每次生成的静态文件推送到master分支</p>
-<p>如果没安装过hexo-deployer-git，需要手动安装一下才能正常发布到git上去，不然会报错<br>hexo d：ERROR Deployer not found: git</p>
+<p>master 代表每次生成的静态文件推送到master分支</p>
+<h4 id="注意-1"><a href="#注意-1" class="headerlink" title="注意"></a>注意</h4><ul>
+<li>repository这个我推荐填ssh方式的连接，一开始我填https的连接也可以的，但是这样每次部署代码的时候都要手动输入github的用户名和密码，非常之麻烦，ssh就可以通过添加ssh keys解决。这个也是我遇到的一个小坑。</li>
+</ul>
+<p>如果没安装过hexo-deployer-git，需要手动安装一下才能正常发布到git上去，不然会报错（hexo d：ERROR Deployer not found: git），cd进blog文件夹</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure>
 <p>安装好了以后执行命令：</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>学习一下，g是重新生成静态文件，d是把静态文件发布到你的git里去。<br>如果你没把自己的ssh keys添加到git里，那么就会提醒你输入用户名和密码。</p>
+<p>学习一下，g是generate，作用是生成静态文件，d是deploy，把静态文件发布到你的git里去。<br>如果你没把自己的ssh keys添加到git里，那么就会提醒你输入用户名和密码。</p>
 <p>怎么添加ssh keys 请参考这儿<a href="www.baidu.com">如何给github添加ssh keys</a></p>
-<p>这个时候回去自己的github里，就能看到hexo发布过来的静态文件了，部署过来的文件对应本地的public文件夹。</p>
+<p>这个时候回去自己的github里，就能在master分支下看到hexo发布过来的静态文件了，部署过来的文件对应本地生成的public文件夹。</p>
 <p>如果没有变化，就看看commit提交有没有报错，如果是正常的commit应该会有绿色的勾，如果有错误会有红色的叉，并且可以查看错误原因，我遇到过报红色叉的问题有：</p>
-<p>The tag fancybox on line 77 in themes/landscape/README.md is not a recognized Liquid tag.</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The tag fancybox on line 77 in themes/landscape/README.md is not a recognized Liquid tag.</span><br></pre></td></tr></table></figure>
 <p>直接把landscape的README.md给删了就好</p>
-<p>这个时候打开项目的setting，往下拉找到GitHub Pages，<br>会提示 Your site is published at <a href="https://wodaq.github.io/" target="_blank" rel="noopener">https://wodaq.github.io/</a></p>
-<p>这个时候就可以直接点过去访问啦</p>
-<p>然后你会感觉这个默认的主题有点丑，没关系，我们去找到自己喜欢的主题后，在_config.yml里找到theme字段，把landscape改成next（我用的就是next），注意改yml文件的时候空格要多多注意。</p>
-<p>改好了cd到你的目录下执行:</p>
+<p>这个时候打开项目的setting，往下拉找到GitHub Pages，<br>会提示 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">Your site is published at https://wodaq.github.io/</span><br></pre></td></tr></table></figure>
+<p>就可以直接点过去访问啦</p>
+<p>然后感觉这个默认的主题有点丑，于是在网上找了一圈后选择了next，在_config.yml里找到theme字段，把landscape改成next，注意改yml文件的时候空格要小心些，不然运行命令的时候就很可能会报解析yml错误。</p>
+<p>改好了cd到blog下安装主题模块:</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/theme-next/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
 <p>等待安装完成后就会发现在themes文件夹下多了一个next文件夹。</p>
-<p>然后使用</p>
+<p>然后再次生成静态文件，再部署到git上</p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>
-<p>重新生成和重新发布一下，这时候你再去git页面查看一下，主题是否已经改成了next。</p>
-<p>你可以自己新建一篇文章，比如说</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo new post &quot;linux test&quot;</span><br><span class="line">//INFO  Created: E:\study\myself\webServer\blog\source\_posts\PC-test.md</span><br></pre></td></tr></table></figure>
-<p>命令会建立一篇名为PC test 的md文件，然后再g，d发布一下，可以在git上看到自己新建的文章。</p>
-<p>那么问题来了，如何在多个终端同时管理更新这个博客呢，一般都有公司PC，家里的PC，自己的linux服务器，自己的macbook。都应该可以统一管理这个blog才对。哇这个我整了很久，看了很多文章，最后好不容易琢磨出来了</p>
+<p>执行完成后这时候再去git页面查看一下，主题已经改成了next。</p>
+<p>然后使用new命令新建一篇文章，比如说</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;linux test&quot;</span><br></pre></td></tr></table></figure>
+<p>命令会建立一篇名为linux test的md文件，然后再g，d发布一下，可以在git上看到自己新建的文章。</p>
+<blockquote>
+<p>那么问题来了，如何在多个终端同时管理更新这个博客呢，一般都有公司PC，家里的PC，自己的linux服务器，自己的macbook。都应该可以统一管理这个blog才对。哇这个我整了很久，看了很多文章，最后好不容易琢磨出来了,在这里再次记录一下。</p>
+</blockquote>
 <p>先说一下大概思想，gitpage展示的页面是mster分支，master分支是我们通过g，d命令生成的public文件夹下的静态文件，那么我们另外开一个分支叫backend，用来存放所有的代码，然后如果需要在不同的终端下更新或者管理博客，只需要在本地pull一下backend的最新代码，然后在本地修改完成后，重新g，d发布到master分支就可以了。</p>
 <p>这个操作的重点就在于，你需要在每个终端都配同样的环境，node，hexo，git之类的，那我继续开始。</p>
 <p>去git另开一个分支backend</p>
@@ -265,9 +275,7 @@
 <p>首先新建一个空的文件夹blog<br>然后cd进去</p>
 <p>hexo init<br>hexo install<br>然后修改_config.yml<br>要装都都装好，然后</p>
 <p>git init<br>然后再绑定到git<br>git remote add origin <a href="mailto:git@github.com" target="_blank" rel="noopener">git@github.com</a>:WodaQ/wodaq.github.io.git</p>
-<p>git add .</p>
-<p>git branch<br>发现现在在master分支上，<br>然后新建本地分支，<br>git checkout backend</p>
-<p>新建一个文件</p>
+<p>再拉取所有代码，然后丢弃本地，强制拉取远端分支。<br>git fetch –all<br>git reset –hard origin/master<br>git checkout -b backend origin/backend<br>git reset –hard origin/backend<br>git pull //可以省略</p>
 <p>git commit -m “PC test”</p>
 <p>git add .</p>
 <p>git pull</p>
@@ -331,15 +339,16 @@
 
       <ul class="sidebar-nav motion-element">
         <li class="sidebar-nav-toc">
-          Table of Contents
+          文章目录
         </li>
         <li class="sidebar-nav-overview">
-          Overview
+          站点概览
         </li>
       </ul>
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-4"><a class="nav-link" href="#注意"><span class="nav-number">1.</span> <span class="nav-text">注意</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#注意-1"><span class="nav-number">2.</span> <span class="nav-text">注意</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -356,7 +365,7 @@
           <a href="/archives/">
         
           <span class="site-state-item-count">4</span>
-          <span class="site-state-item-name">posts</span>
+          <span class="site-state-item-name">日志</span>
         </a>
       </div>
   </nav>
@@ -387,10 +396,10 @@
   </span>
   <span class="author" itemprop="copyrightHolder">John Doe</span>
 </div>
-  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
   </div>
   <span class="post-meta-divider">|</span>
-  <div class="theme-info">Theme – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.4.2
+  <div class="theme-info">主题 – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.4.2
   </div>
 
         
