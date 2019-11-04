@@ -1,13 +1,9 @@
 ---
 title: 多终端如何管理hexo博客
 date: 2019-10-31 11:00:25
+type: "hexo"
 tags:
----
-
----
-title: 多终端如何管理hexo博客
-date: 2019-10-31 11:00:25
-tags:
+    - hexo
 ---
 
 

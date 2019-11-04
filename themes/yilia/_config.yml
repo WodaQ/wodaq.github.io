@@ -2,6 +2,7 @@
 
 menu:
   主页: /
+  归档:  /archives/index.html
   随笔: /tags/随笔/
 
 # SubNav
@@ -65,10 +66,10 @@ top: true
 # Miscellaneous
 baidu_analytics: ''
 google_analytics: ''
-favicon: /favicon.png
+favicon: assert/head.jpg
 
 #你的头像url
-avatar:
+avatar: assert/head.jpg
 
 #是否开启分享
 share_jia: true
