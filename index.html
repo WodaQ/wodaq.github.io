@@ -157,6 +157,102 @@
           <div id="js-content" class="content-ll">
             
   
+    <article id="post-自定义hexo" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class=" article-header">
+  
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2019/11/05/%E8%87%AA%E5%AE%9A%E4%B9%89hexo/">自定义hexo</a>
+    </h1>
+  
+
+  <!--显示阅读次数-->
+  
+  
+  <a href="/2019/11/05/%E8%87%AA%E5%AE%9A%E4%B9%89hexo/" class="archive-article-date">
+  	<time datetime="2019-11-05T02:57:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-05</time>
+</a>
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <blockquote>
+<p>在配置好主题后，需要加上自己的头像、图标等等等等，在配置过程中也遇到一些问题，在此记录一下。</p>
+</blockquote>
+<ul>
+<li>站点配置是指你blog文件夹下的_config.yml</li>
+<li>主题配置是指你themes/你选择的主题，文件夹下的_config.yml</li>
+</ul>
+<h3 id="1-配置头像"><a href="#1-配置头像" class="headerlink" title="1,配置头像"></a>1,配置头像</h3><p>打开主题配置，找到对应字段</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar: /uploads/Head_portrait.png</span><br></pre></td></tr></table></figure>
+<p>我在配置头像的时候遇到一些小问题，开始是在sources下新建了个文件夹assert，然后avatar的值设置的是assert/head.jpg。就出现了刚开始配置好后主页的头像显示正常，但是切换到其他页面就显示不出来，一般这个问题就算图片的路径设置的不对</p>
+<h3 id="2-设置网站标题，作者，语言等"><a href="#2-设置网站标题，作者，语言等" class="headerlink" title="2,设置网站标题，作者，语言等"></a>2,设置网站标题，作者，语言等</h3><p>打开站点配置，修改下面对应的值</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: CJ&apos;S BLOG</span><br><span class="line">subtitle: CJ的博客小站</span><br><span class="line">description: 欢迎来到CJ的技术分享站~</span><br><span class="line">author: CJ</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone:</span><br></pre></td></tr></table></figure>
+<h3 id="3-设置菜单"><a href="#3-设置菜单" class="headerlink" title="3,设置菜单"></a>3,设置菜单</h3><p>在主题配置里找到menu字段,加上对应的路径就好了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">主页: /</span><br><span class="line">  归档:  /archives/index.html</span><br><span class="line">  随笔: /tags/随笔/</span><br></pre></td></tr></table></figure>
+<h3 id="4，设置网页标签页的小图标"><a href="#4，设置网页标签页的小图标" class="headerlink" title="4，设置网页标签页的小图标"></a>4，设置网页标签页的小图标</h3><p>在主题配置里找到favicon字段，设置方法和头像一样</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar: /uploads/Head_portrait.png</span><br></pre></td></tr></table></figure>
+
+<p>参考文章：</p>
+<ul>
+<li><a href="http://blog.codesfile.com/2017/12/16/HEXO%E6%90%AD%E9%85%8DNext%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">HEXO搭配Next主题修改博客</a></li>
+<li><a href="https://cloudy-liu.github.io/2018/04/07/Hexo_yilia_%E4%B8%BB%E9%A2%98%E4%B8%80%E6%8F%BD%E5%AD%90%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88/#%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F" target="_blank" rel="noopener">Hexo yilia 主题一揽子使用方案</a></li>
+</ul>
+
+    
+
+    
+  </div>
+  <div class="article-info article-info-index">
+    
+    
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">hexo</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
+    
+
+    
+    <p class="article-more-link">
+      <a class="article-more-a" href="/2019/11/05/%E8%87%AA%E5%AE%9A%E4%B9%89hexo/">展开全文 >></a>
+    </p>
+    
+
+    
+    <div class="clearfix"></div>
+  </div>
+  </div>
+</article>
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
+        </div>
+        
+        
+    </div>
+</aside>
+
+
+
+  
     <article id="post-君子玉" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     

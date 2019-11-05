@@ -6,13 +6,17 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>Archives: 2019/11 | wodaQ的个人博客</title>
+  <title>自定义hexo | wodaQ的个人博客</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="wodaQ的个人博客">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;archives&#x2F;2019&#x2F;11&#x2F;index.html">
+  <meta name="description" content="在配置好主题后，需要加上自己的头像、图标等等等等，在配置过程中也遇到一些问题，在此记录一下。   站点配置是指你blog文件夹下的_config.yml 主题配置是指你themes&#x2F;你选择的主题，文件夹下的_config.yml  1,配置头像打开主题配置，找到对应字段 1avatar: &#x2F;uploads&#x2F;Head_portrait.png 我在配置头像的时候遇到一些小问题，开始是在source">
+<meta name="keywords" content="hexo">
+<meta property="og:type" content="article">
+<meta property="og:title" content="自定义hexo">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;05&#x2F;%E8%87%AA%E5%AE%9A%E4%B9%89hexo&#x2F;index.html">
 <meta property="og:site_name" content="wodaQ的个人博客">
+<meta property="og:description" content="在配置好主题后，需要加上自己的头像、图标等等等等，在配置过程中也遇到一些问题，在此记录一下。   站点配置是指你blog文件夹下的_config.yml 主题配置是指你themes&#x2F;你选择的主题，文件夹下的_config.yml  1,配置头像打开主题配置，找到对应字段 1avatar: &#x2F;uploads&#x2F;Head_portrait.png 我在配置头像的时候遇到一些小问题，开始是在source">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2019-11-05T02:57:37.955Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="wodaQ的个人博客" type="application/atom+xml">
@@ -155,36 +159,88 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
+            <article id="post-自定义hexo" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+      <header class=" article-header">
   
   
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2019" class="archive-year">2019</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/05/%E8%87%AA%E5%AE%9A%E4%B9%89hexo/" class="archive-article-date">
-  	<time datetime="2019-11-05T02:57:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-05</time>
-</a>
-        </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/05/%E8%87%AA%E5%AE%9A%E4%B9%89hexo/">自定义hexo</a>
+    <h1 class="article-title" itemprop="name">
+      自定义hexo
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+  <!--显示阅读次数-->
+  
+  <br />
+  <a class="cloud-tie-join-count" href="javascript:void(0);" style="color:gray;font-size:14px;">
+    <span class="icon-sort"></span>
+    <span id="busuanzi_container_page_pv" style="color:#ef7522;font-size:14px;">
+      阅读数: <span id="busuanzi_value_page_pv"></span>次 &nbsp;&nbsp;
+    </span>
+  </a>
+  
+  
+  <a href="/2019/11/05/%E8%87%AA%E5%AE%9A%E4%B9%89hexo/" class="archive-article-date">
+  	<time datetime="2019-11-05T02:57:05.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-05</time>
+</a>
+  
+  </header>
+  
+  <div class="article-entry" itemprop="articleBody">
+    
+    <blockquote>
+<p>在配置好主题后，需要加上自己的头像、图标等等等等，在配置过程中也遇到一些问题，在此记录一下。</p>
+</blockquote>
+<ul>
+<li>站点配置是指你blog文件夹下的_config.yml</li>
+<li>主题配置是指你themes/你选择的主题，文件夹下的_config.yml</li>
+</ul>
+<h3 id="1-配置头像"><a href="#1-配置头像" class="headerlink" title="1,配置头像"></a>1,配置头像</h3><p>打开主题配置，找到对应字段</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar: /uploads/Head_portrait.png</span><br></pre></td></tr></table></figure>
+<p>我在配置头像的时候遇到一些小问题，开始是在sources下新建了个文件夹assert，然后avatar的值设置的是assert/head.jpg。就出现了刚开始配置好后主页的头像显示正常，但是切换到其他页面就显示不出来，一般这个问题就算图片的路径设置的不对</p>
+<h3 id="2-设置网站标题，作者，语言等"><a href="#2-设置网站标题，作者，语言等" class="headerlink" title="2,设置网站标题，作者，语言等"></a>2,设置网站标题，作者，语言等</h3><p>打开站点配置，修改下面对应的值</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># Site</span><br><span class="line">title: CJ&apos;S BLOG</span><br><span class="line">subtitle: CJ的博客小站</span><br><span class="line">description: 欢迎来到CJ的技术分享站~</span><br><span class="line">author: CJ</span><br><span class="line">language: zh-Hans</span><br><span class="line">timezone:</span><br></pre></td></tr></table></figure>
+<h3 id="3-设置菜单"><a href="#3-设置菜单" class="headerlink" title="3,设置菜单"></a>3,设置菜单</h3><p>在主题配置里找到menu字段,加上对应的路径就好了</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">主页: /</span><br><span class="line">  归档:  /archives/index.html</span><br><span class="line">  随笔: /tags/随笔/</span><br></pre></td></tr></table></figure>
+<h3 id="4，设置网页标签页的小图标"><a href="#4，设置网页标签页的小图标" class="headerlink" title="4，设置网页标签页的小图标"></a>4，设置网页标签页的小图标</h3><p>在主题配置里找到favicon字段，设置方法和头像一样</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">avatar: /uploads/Head_portrait.png</span><br></pre></td></tr></table></figure>
+
+<p>参考文章：</p>
+<ul>
+<li><a href="http://blog.codesfile.com/2017/12/16/HEXO%E6%90%AD%E9%85%8DNext%E4%B8%BB%E9%A2%98%E4%BF%AE%E6%94%B9%E5%8D%9A%E5%AE%A2/" target="_blank" rel="noopener">HEXO搭配Next主题修改博客</a></li>
+<li><a href="https://cloudy-liu.github.io/2018/04/07/Hexo_yilia_%E4%B8%BB%E9%A2%98%E4%B8%80%E6%8F%BD%E5%AD%90%E4%BC%98%E5%8C%96%E6%96%B9%E6%A1%88/#%E4%BF%AE%E6%94%B9%E4%BB%A3%E7%A0%81%E5%9D%97%E6%A0%B7%E5%BC%8F" target="_blank" rel="noopener">Hexo yilia 主题一揽子使用方案</a></li>
+</ul>
+
+    
+
+    
+    <div class="page-reward">
+      <a href="javascript:;" class="page-reward-btn tooltip-top">
+        <div class="tooltip tooltip-east">
+          <span class="tooltip-item">
+            赏
+          </span>
+          <span class="tooltip-content">
+            <span class="tooltip-text">
+              <span class="tooltip-inner">
+                <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i
+                    class="icon icon-quo-right"></i></p>
+                <div class="reward-box">
+                  
+                  
+                </div>
+              </span>
+            </span>
+          </span>
+        </div>
+      </a>
+    </div>
+    
+  </div>
+  <div class="article-info article-info-index">
+    
+    
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -196,57 +252,105 @@
 		</ul>
 	</div>
 
-          
+    
 
+    
+
+    
+    
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://yoursite.com/2019/11/05/%E8%87%AA%E5%AE%9A%E4%B9%89hexo/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+    
+    <div class="clearfix"></div>
+  </div>
   </div>
 </article>
+
+
+<nav id="article-nav">
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2019/11/04/%E5%90%9B%E5%AD%90%E7%8E%89/" class="archive-article-date">
-  	<time datetime="2019-11-04T02:43:20.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2019-11-04</time>
-</a>
+  
+    <a href="/2019/11/04/%E5%90%9B%E5%AD%90%E7%8E%89/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">君子玉</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
-  
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2019/11/04/%E5%90%9B%E5%AD%90%E7%8E%89/">君子玉</a>
-    </h1>
-  
+        
+        
+    </div>
+</aside>
 
-        <div class="article-info info-on-right">
-          
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">随笔</a>
-        		</li>
-      		
-		</ul>
-	</div>
 
-          
 
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
 
-    
+
+
+
+
+
+
+
 
 
           </div>
@@ -272,8 +376,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-			isArchive: true,
+		isPost: true,
+			isArchive: false,
 				isTag: false,
 					isCategory: false,
 						open_in_new: false,
